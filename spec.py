@@ -6,6 +6,10 @@ __author__ = 'dalem'
 #TODO; how much memory
 #TODO; what kind of processor
 #TODO; performance whetstones counter
+#TODO; ImportError: No module named psutil
+#TODO; Windows. psutils needs to be installed. Gets "error: Unable to find vcvarsall.bat" and this http://stackoverflow.com/questions/6551724/how-do-i-point-easy-install-to-vcvarsall-bat has a little insight. Sounds like lots of hassle. I'm wondering what a reasonable answer is...
+#TODO; Perhaps on Windows machines we boot from a Linux LiveCD then run machineSpec.py?
+
 
 import os
 import psutil
